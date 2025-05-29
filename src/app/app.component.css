@@ -1,0 +1,5 @@
+/* Add padding to account for fixed navbar */
+:host {
+    display: block;
+    padding-top: 80px; /* Adjust this value based on your navbar height */
+}

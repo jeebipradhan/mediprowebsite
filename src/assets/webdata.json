@@ -1,0 +1,22 @@
+{
+  "websites": [
+    {
+      "id": 1,
+      "name": "About",
+      "description": "1. For over three decades, we've been committed to transforming operations, optimizing inventory control, enhancing financial management, and delivering actionable insights through advanced MIS reporting. Our solutions are trusted by businesses and healthcare facilities across Nepal.",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Mission",
+      "description": "2. Our integrated suite of software is designed to streamline and simplify your operations, offering flexibility to meet diverse needs and budgets.",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Home",
+      "description": "3. MediPro is a pioneer in innovative software solutions, specializing in the automation of medicine and healthcare businesses.",
+      "status": "active"
+    }
+  ]
+} 
