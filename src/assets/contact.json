@@ -1,0 +1,49 @@
+{
+    "contacts": [
+    {
+      "RegionName": "Head Office",
+      "Address": "Komal Complex, Putalisadak, 1588 Ramshah Path, Kathmandu.",
+      "Phone1": "01-5970-396",
+      "Email": "medipro@mediprocomputers.com"
+    },
+    {
+      "RegionName": "Western",
+      "Address": null,
+      "Phone1": "980-202-0240",
+      "Phone2": "985-802-0240",
+      "Email": "hrishavpandey@gmail.com",
+      "ContactPerson": "Kishan Pandey"
+    },
+    {
+      "RegionName": "Eastern",
+      "Address": null,
+      "Phone1": "980-202-0148",
+      "Phone2": "985-202-0148",
+      "Email": "kumar.medipro@gmail.com",
+      "ContactPerson": "Kumar Khatiwada"
+    },
+    {
+      "RegionName": "Gandaki",
+      "Address": null,
+      "Phone1": "980-202-0194",
+      "Phone2": "985-602-0194",
+      "Email": "hangdudh@gmail.com",
+      "ContactPerson": "Ashish Gurung"
+    },
+    {
+      "RegionName": "Kavre",
+      "Address": null,
+      "Phone1": "985-108-1595",
+      "Phone2": "980-205-0888",
+      "Email": "shekhardulal@gmail.com",
+      "ContactPerson": "Shekhar Dulal"
+    },
+    {
+      "RegionName": "Narayangarh",
+      "Address": null,
+      "Phone1": "985-506-0164",
+      "Email": "sthanil.medipro@gmail.com",
+      "ContactPerson": "Anil Shrestha"
+    }
+  ]
+}

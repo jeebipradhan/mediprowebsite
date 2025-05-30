@@ -13,7 +13,18 @@
       <a href="#" class="nav-link">Resources</a>
       <a href="#" class="nav-link">Download</a>
       <a href="#" class="nav-link">Contact</a>
-      <a routerLink="/about" class="nav-link">About</a>
+      <div class="dropdown">
+        <a routerLink="/about" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          About
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/about">About Us</a></li>
+          <li><a class="dropdown-item" routerLink="/careers">Careers</a></li>
+          <li><a class="dropdown-item" routerLink="/news">News</a></li>
+          <li><a class="dropdown-item" routerLink="/team">Team</a></li>
+          <li><a class="dropdown-item" routerLink="/event">Events</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
