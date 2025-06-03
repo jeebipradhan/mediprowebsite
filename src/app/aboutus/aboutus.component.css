@@ -30,19 +30,75 @@
 }
 
 .about-section {
-  margin-bottom: 3rem;
+  padding: 4rem 0;
+  background-color: #f8f9fa;
 }
 
-.about-section h2 {
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
   color: #2c3e50;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.about-section p {
-  color: #666;
+.about-text {
+  color: #6c757d;
   line-height: 1.8;
-  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.team-section {
+  padding: 4rem 0;
+}
+
+.team-title {
+  color: #2c3e50;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.team-member {
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.member-name {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.member-role {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.member-bio {
+  color: #6c757d;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .features-grid {
@@ -74,4 +130,50 @@
   color: #666;
   line-height: 1.6;
   font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .about-section,
+  .team-section {
+    padding: 3rem 0;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section,
+  .team-section {
+    padding: 2rem 0;
+  }
+
+  .about-title,
+  .team-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .member-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .member-image {
+    width: 100px;
+    height: 100px;
+  }
 } 
