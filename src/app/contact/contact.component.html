@@ -1,0 +1,43 @@
+<div class="contact-container">
+  <!-- Head Office Section -->
+  <section class="contact-section">
+    <h1>{{ headOffice.title }}</h1>
+    <div class="contact-info">
+      <h2>{{ headOffice.location }}</h2>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>{{ headOffice.address }}</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <p>{{ headOffice.phone }}</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>{{ headOffice.email }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regional Contacts Section -->
+  <section class="contact-section">
+    <h1>Regional Contacts</h1>
+    <div class="regional-contacts">
+      <div class="contact-card" *ngFor="let contact of regionalContacts">
+        <h2>{{ contact.name }}</h2>
+        <div class="info-item">
+          <i class="fas fa-map-marked-alt"></i>
+          <p>{{ contact.region }}</p>
+        </div>
+        <div class="info-item" *ngFor="let phone of contact.phones">
+          <i class="fas fa-phone"></i>
+          <p>{{ phone }}</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>{{ contact.email }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

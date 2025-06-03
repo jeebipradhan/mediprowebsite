@@ -1,0 +1,79 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.contact-section {
+  margin-bottom: 3rem;
+}
+
+.contact-section h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.regional-contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.info-item i {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-right: 1rem;
+  width: 24px;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1rem;
+  }
+  
+  .regional-contacts {
+    grid-template-columns: 1fr;
+  }
+}

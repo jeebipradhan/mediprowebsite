@@ -1,0 +1,49 @@
+{
+  "title": "Careers at MediPro",
+  "subtitle": "Join our team and help shape the future of healthcare software solutions",
+  "jobListings": [
+    {
+      "title": "Senior Operation Manager",
+      "description": "We are seeking an experienced Operation Manager to oversee and optimize our day-to-day operations, ensuring efficiency and quality in our software development and delivery processes.",
+      "responsibilities": [
+        "Develop and implement operational strategies to improve productivity and quality",
+        "Manage and coordinate team activities across different projects",
+        "Ensure adherence to company policies and industry standards",
+        "Analyze and report on operational performance, recommending improvements",
+        "Collaborate with other departments to align operations with company goals"
+      ],
+      "requirements": [
+        "Bachelor's degree in Business Administration, Computer Science, or related field",
+        "5+ years of experience in operations management, preferably in the software industry",
+        "Strong leadership and communication skills",
+        "Proficiency in project management tools and methodologies",
+        "Excellent problem-solving and decision-making abilities"
+      ]
+    },
+    {
+      "title": "Senior Web App Developer",
+      "description": "We are looking for a talented Web App Developer to join our team and contribute to the development of innovative healthcare software solutions.",
+      "responsibilities": [
+        "Design, develop, and maintain web applications using modern frameworks and technologies",
+        "Collaborate with cross-functional teams to define and implement new features",
+        "Ensure the performance, quality, and responsiveness of applications",
+        "Participate in code reviews and contribute to technical documentation",
+        "Stay up-to-date with emerging trends and technologies in web development"
+      ],
+      "requirements": [
+        "Bachelor's degree in Computer Science, Software Engineering, or related field",
+        "3+ years of experience in web application development",
+        "Proficiency in JavaScript, TypeScript, and modern frameworks (e.g., React, Next.js)",
+        "Strong understanding of web technologies and best practices",
+        "Experience with RESTful APIs and database technologies",
+        "Familiarity with version control systems (e.g., Git)"
+      ]
+    }
+  ],
+  "generalApplication": {
+    "title": "Don't see a position that fits?",
+    "description": "We're always looking for talented individuals to join our team. Send us your resume, and we'll keep it on file for future opportunities.",
+    "buttonText": "Submit Your Resume"
+  }
+}
+  

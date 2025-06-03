@@ -1,0 +1,37 @@
+{
+  "title": "Comprehensive and Flexible Solutions",
+  "description": "Our integrated suite of software is designed to streamline and simplify your operations, offering flexibility to meet diverse needs and budgets.",
+  "services": [
+    {
+      "title": "OPD/IPD Billing with Insurance Claim Management",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "hospital"
+    },
+    {
+      "title": "Pharmacy Management",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "pharmacy"
+    },
+    {
+      "title": "Laboratory Machine Integration for Seamless Report Generation",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "lab"
+    },
+    {
+      "title": "Inventory Control and Asset Management",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "inventory"
+    },
+    {
+      "title": "Time Punch and Payroll Systems",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "clock"
+    },
+    {
+      "title": "Hospital-specific MIS Reports and HMIS Compliance",
+      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "icon": "hmis"
+    }
+  ]
+}
+  
