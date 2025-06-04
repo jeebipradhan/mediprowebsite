@@ -5,17 +5,17 @@
 
   <ng-container *ngIf="title && jobListings.length">
     <header class="careers-header">
-      <h1>{{ title }}</h1>
-      <p class="subtitle">{{ subtitle }}</p>
+      <h1 style="color:blueviolet">{{ title }}</h1>
+      <p style="color:darkslateblue" class="subtitle">{{ subtitle }}</p>
     </header>
 
     <div class="job-listings">
       <div class="job-card" *ngFor="let job of jobListings">
-        <h2>{{ job.title }}</h2>
+        <h2 style="color:cornflowerblue">{{ job.title }}</h2>
         <p class="job-description">{{ job.description }}</p>
 
         <div class="job-section">
-          <h3>Key Responsibilities:</h3>
+          <h3 style="color:deepskyblue">Key Responsibilities:</h3>
           <ul>
             <li *ngFor="let responsibility of job.responsibilities">
               {{ responsibility }}
@@ -24,7 +24,7 @@
         </div>
 
         <div class="job-section">
-          <h3>Requirements:</h3>
+          <h3 style="color:deepskyblue">Requirements:</h3>
           <ul>
             <li *ngFor="let requirement of job.requirements">
               {{ requirement }}
@@ -32,7 +32,7 @@
           </ul>
         </div>
 
-        <button class="apply-button">Apply Now</button>
+        <button (click)="showResumeMessage()" class="apply-button">Apply Now</button>
       </div>
     </div>
 
@@ -40,7 +40,7 @@
       <div class="general-application-content">
         <h2>{{ generalApplication.title }}</h2>
         <p>{{ generalApplication.description }}</p>
-        <button class="apply-button">{{ generalApplication.buttonText }}</button>
+        <button (click)="showResumeMessage()" class="apply-button">{{ generalApplication.buttonText }}</button>
       </div>
     </div>
   </ng-container>

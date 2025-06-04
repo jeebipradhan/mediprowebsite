@@ -1,8 +1,8 @@
 <div class="container-fluid py-5">
   <section class="hero-section text-center mb-5">
     <div class="container">
-      <h1 class="display-4 mb-3">{{ title }}</h1>
-      <p class="lead">{{ description }}</p>
+      <h1 style="color:blueviolet" class="display-4 mb-3">{{ title }}</h1>
+      <p style="color:cornflowerblue" class="lead">{{ description }}</p>
     </div>
   </section>
 
@@ -19,8 +19,8 @@
       </div>
 
       <div *ngIf="servicesData && !loading && !error">
-        <h2 class="text-center mb-4">{{ servicesData.title }}</h2>
-        <p class="text-center mb-5">{{ servicesData.description }}</p>
+        <h2 style="color:blueviolet" class="text-center mb-4">{{ servicesData.title }}</h2>
+        <p style="color:cornflowerblue" class="text-center mb-5">{{ servicesData.description }}</p>
         
         <div class="row g-4">
           <div class="col-md-4" *ngFor="let service of servicesData.services">
@@ -29,7 +29,7 @@
                 <div class="service-icon mb-3">
                   <i class="bi bi-{{ service.icon }}"></i>
                 </div>
-                <h3 class="card-title h5">{{ service.title }}</h3>
+                <h3 style="color:blueviolet" class="card-title h5">{{ service.title }}</h3>
                 <p class="card-text">{{ service.description }}</p>
               </div>
             </div>

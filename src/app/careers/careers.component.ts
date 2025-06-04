@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { MatDialog } from '@angular/material/dialog';
+import { ResumeDialogComponent } from '../resume-dialog/resume-dialog.component';
 
 interface JobListing {
   title: string;
@@ -37,7 +39,10 @@ export class CareersComponent implements OnInit {
     buttonText: ''
   };
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private dialog: MatDialog
+  ) {}
 
   ngOnInit() {
     this.loadCareersData();
@@ -55,5 +60,9 @@ export class CareersComponent implements OnInit {
         console.error('Error loading careers data:', error);
       }
     });
+  }
+
+  showResumeMessage(): void {
+    this.dialog.open(ResumeDialogComponent);
   }
 }
