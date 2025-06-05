@@ -6,10 +6,10 @@
 
 .hero-section {
   text-align: center;
-  padding: 4rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem 0;
+/*   background: linear-gradient(135deg, #89b0cd 0%, #bed3c6 100%);
   border-radius: 10px;
-  margin-bottom: 3rem;
+ */  margin-bottom: 3rem;
 }
 
 .hero-section h1 {
@@ -19,8 +19,8 @@
 }
 
 .hero-section p {
-  font-size: 1.2rem;
-  color: #34495e;
+  font-size: 1.4rem;
+  color: #e8f1f1;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -30,23 +30,29 @@
 }
 
 .about-section {
-  padding: 4rem 0;
-  background-color: #f8f9fa;
-}
+  padding: 2rem 0;
+  }
 
+.about-section h2 {
+  color:blueviolet;
+}
+.about-section p {
+  font-size: 20px;
+  color: rgb(167, 135, 235);
+}
 .about-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
 .about-title {
-  color: #2c3e50;
+  color: #2c3750;
   margin-bottom: 2rem;
 }
 
 .about-text {
-  color: #6c757d;
+  color: #6c727d;
   line-height: 1.8;
   margin-bottom: 2rem;
 }
