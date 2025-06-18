@@ -3,7 +3,7 @@
   "subtitle": "Join our team and help shape the future of healthcare software solutions",
   "jobListings": [
     {
-      "title": "Senior Operation Manager",
+      "title": "Operation Manager",
       "description": "We are seeking an experienced Operation Manager to oversee and optimize our day-to-day operations, ensuring efficiency and quality in our software development and delivery processes.",
       "responsibilities": [
         "Develop and implement operational strategies to improve productivity and quality",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "title": "Senior Web App Developer",
+      "title": "Web App Developer",
       "description": "We are looking for a talented Web App Developer to join our team and contribute to the development of innovative healthcare software solutions.",
       "responsibilities": [
         "Design, develop, and maintain web applications using modern frameworks and technologies",
@@ -32,11 +32,33 @@
       ],
       "requirements": [
         "Bachelor's degree in Computer Science, Software Engineering, or related field",
-        "3+ years of experience in web application development",
+        "3+ years of experience in web application development in Angular",
         "Proficiency in JavaScript, TypeScript, and modern frameworks (e.g., React, Next.js)",
         "Strong understanding of web technologies and best practices",
         "Experience with RESTful APIs and database technologies",
         "Familiarity with version control systems (e.g., Git)"
+      ]
+    },
+    {
+      "title": "Marketing Manager",
+      "description": "We are seeking a dynamic and results-driven Marketing Manager to join our team and support the promotion of our innovative healthcare software solutions. The ideal candidate will play a key role in developing marketing strategies, creating promotional materials, and building customer relationships to strengthen our market presence.",
+      "responsibilities": [
+        "Promote and market our in-house healthcare software products to potential clients.",
+        "Conduct product training sessions for customers and internal support teams.",
+        "Create engaging marketing materials including presentations, brochures, and digital content.",
+        "Manage and grow the company’s presence on social media platforms.",
+        "Stay informed about the latest trends and technologies in software and digital marketing.",
+        "Collaborate with the sales and development teams to align marketing efforts with business goals.",
+        "Stay informed about upcoming policies and procedures from relevant government regulatory bodies, and maintain active communication with the concerned authorities"
+      ],
+      "requirements": [
+        "Bachelor’s degree in Marketing, Business, or a related field.",
+        "Minimum of 3 years of relevant experience in marketing.",
+        "Solid understanding of the software industry; familiarity with healthcare is a plus.",
+        "Strong interpersonal skills and a persuasive personality.",
+        "Excellent communication skills in both English and Nepali (written and verbal).",
+        "Background in IT or technical knowledge will be an added advantage.",
+        "Quick learner with a proactive attitude."
       ]
     }
   ],

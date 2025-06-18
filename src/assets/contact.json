@@ -2,47 +2,48 @@
     "contacts": [
     {
       "RegionName": "Head Office",
-      "Address": "Putalisadak, 1588 Ramshah Path, Kathmandu.",
-      "Phone1": "01-5970-396",
-      "Email": "medipro@mediprocomputers.com"
+      "Address": "Putalisadak, 1588 Ramshah Path,",
+      "Phone1": "Komal Complex, Kathmandu.",
+      "Phone2": "Phone: +977-01-5970396",
+      "Email": "Email: medipro@mediprocomputers.com"
     },
     {
-      "RegionName": "Western",
+      "RegionName": "Western Region",
       "Address": null,
-      "Phone1": "98020-20240",
-      "Phone2": "98580-20240",
-      "Email": "hrishavpandey@gmail.com",
+      "Phone1": "Phone: 98020-20240",
+      "Phone2": "Phone: 98580-20240",
+      "Email": "Email: hrishavpandey@gmail.com",
       "ContactPerson": "Kishan Pandey"
     },
     {
-      "RegionName": "Eastern",
+      "RegionName": "Eastern Region",
       "Address": null,
-      "Phone1": "98020-20148",
-      "Phone2": "98520-20148",
-      "Email": "kumar.medipro@gmail.com",
+      "Phone1": "Phone: 98020-20148",
+      "Phone2": "Phone: 98520-20148",
+      "Email": "Email: kumar.medipro@gmail.com",
       "ContactPerson": "Kumar Khatiwada"
     },
     {
-      "RegionName": "Gandaki",
+      "RegionName": "Gandaki Region",
       "Address": null,
-      "Phone1": "98020-20194",
-      "Phone2": "98560-20194",
-      "Email": "hangdudh@gmail.com",
-      "ContactPerson": "Ashish Gurung"
+      "Phone1": "Phone: 98020-20194",
+      "Phone2": "Phone: 98560-20194",
+      "Email": "Email: hangdudh@gmail.com",
+      "ContactPerson": "Dudh Man Gurung (Ashish)"
     },
     {
-      "RegionName": "Kavre",
+      "RegionName": "Kavre Region",
       "Address": null,
-      "Phone1": "98510-81595",
-      "Phone2": "98020-50888",
-      "Email": "shekhardulal@gmail.com",
+      "Phone1": "Phone: 98510-81595",
+      "Phone2": "Phone: 98020-50888",
+      "Email": "Email: shekhardulal@gmail.com",
       "ContactPerson": "Shekhar Dulal"
     },
     {
-      "RegionName": "Narayangarh",
+      "RegionName": "Narayangarh Region",
       "Address": null,
-      "Phone1": "98550-60164",
-      "Email": "sthanil.medipro@gmail.com",
+      "Phone1": "Phone: 98550-60164",
+      "Email": "Email: sthanil.medipro@gmail.com",
       "ContactPerson": "Anil Shrestha"
     }
   ]

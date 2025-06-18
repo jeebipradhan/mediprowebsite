@@ -3,33 +3,98 @@
   "description": "Over the years, MediPro has established itself as a trusted name in Nepal's IT industry, recognized for its deep understanding and specialized expertise in the medicine and healthcare sectors. Our integrated suite of software is designed to streamline and simplify your operations, offering flexibility to meet diverse needs and budgets.",
   "services": [
     {
-      "title": "OPD/IPD Billing with Insurance Claim Management",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
-      "icon": "hospital"
+      "title": "OPD Department",
+      "description": "Handles patient registration, ticket generation, and service billing for outpatient visits. This module streamlines the front-desk process, ensuring accurate patient data capture and efficient billing for consultations, procedures, and services rendered.",
+      "icon": "opd"
     },
     {
-      "title": "Pharmacy Management",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
-      "icon": "pharmacy"
+      "title": "IPD Department",
+      "description": "Manages the complete inpatient workflow, including patient admission, bed allocation, advance deposit handling, cash or credit-based service billing, discharge processing, and generation of discharge summaries. It also integrates with other departments for consolidated billing and record-keeping.",
+      "icon": "ipd"
     },
     {
-      "title": "Laboratory Machine Integration for Seamless Report Generation",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "title": "Cash Distribution",
+      "description": "Automates the calculation and distribution of service fees shared among doctors and technicians. This module ensures fair and transparent earnings distribution based on predefined rules or service contributions.",
       "icon": "lab"
     },
     {
-      "title": "Inventory Control and Asset Management",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "title": "Member",
+      "description": "Handles management of affiliated organizations and their members who are eligible for preferred discounts and/or credit billing. This module supports member verification, discount application, and streamlined billing for corporate or institutional tie-ups.",
+      "icon": "lab"
+    },
+    {
+      "title": "Pharmacy",
+      "description": "Supports comprehensive pharmacy operations including retail medicine billing, inventory control, and expiry tracking. It also links seamlessly with OPD/IPD modules to manage prescribed medicine billing and credit sales for inpatients.",
       "icon": "inventory"
     },
     {
-      "title": "Time Punch and Payroll Systems",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "title": "Inventory",
+      "description": "Manages the hospital’s internal inventory of consumables and non-drug supplies. Enables departmental requisition tracking, stock issuance, and real-time inventory monitoring to ensure availability and prevent shortages.",
+      "icon": "inventory"
+    },
+    {
+      "title": "Account",
+      "description": "Manages all business transactions and generates key financial reports including general ledger, trial balance, profit & loss account, balance sheet, and cash flow statement. Integrates with billing and inventory for complete financial visibility.",
+      "icon": "pharmacy"
+    },
+    {
+      "title": "Laboratory",
+      "description": "Facilitates the pathology laboratory process including test report writing, printing, and secure online report viewing by patients. Features include SMS alerts for report readiness and directional data pull from the HIS for faster test processing.",
+      "icon": "lab"
+    },
+    {
+      "title": "Advance Laboratory",
+      "description": "An enhanced version of the standard lab module offering barcode printing for samples, advanced patient/test data capture, and real-time online report viewing. Includes SMS alerts and supports LIS (Laboratory Information System) integration with directional or bi-directional data exchange for seamless automation.",
+      "icon": "lab"
+    },
+    {
+      "title": "Asset",
+      "description": "Manages fixed asset records, calculates depreciation, and tracks assets department-wise. Supports book value maintenance and helps in internal audits and financial reporting related to capital assets.",
+      "icon": "lab"
+    },
+    {
+      "title": "Attendance",
+      "description": "Captures employee attendance via biometric devices and manages late entries, overtime, leaves, and department-wise weekly rosters. Integrates with the payroll system to ensure accurate and compliant HR operations.",
       "icon": "clock"
     },
     {
-      "title": "Hospital-specific MIS Reports and HMIS Compliance",
-      "description": "Each module can work independently or as part of a cohesive system, ensuring you have the tools to achieve your operational goals.",
+      "title": "Payroll",
+      "description": "Automates salary calculation and payslip generation, integrated directly with the attendance module. Ensures timely payroll processing while accounting for overtime, leaves, and deductions.",
+      "icon": "clock"
+    },
+    {
+      "title": "Radiology",
+      "description": "Enables web-based reporting for radiology investigations including CT scans, MRIs, ECHOs, and ultrasounds. Offers structured report writing tools and integrates with imaging systems if required.",
+      "icon": "clock"
+    },
+    {
+      "title": "Telemedicine",
+      "description": "Facilitates online consultations with doctors through scheduled appointments, digital payments, and secure audio-video communication. Supports electronic prescriptions and allows remote access to medical consultations.",
+      "icon": "clock"
+    },
+    {
+      "title": "Insurance",
+      "description": "Handles SSF and HIB insurance workflows including patient registration, eligibility checks, billing, and auto-claim submission. Streamlines insurance claim processing and tracking for faster reimbursement.",
+      "icon": "clock"
+    },
+    {
+      "title": "Online Shopping",
+      "description": "Allows patients to purchase selected medicines online with features like digital payments, order tracking, prescription upload, and options for home delivery or pharmacy pickup.",
+      "icon": "clock"
+    },
+    {
+      "title": "Doctor's Appointment",
+      "description": "Enables online doctor appointment bookings and payments through the Khalti digital wallet. Offers patients convenience and flexibility in scheduling and paying for medical services.",
+      "icon": "clock"
+    },
+    {
+      "title": "IPD-Pharmacy",
+      "description": "Dedicated to managing the pharmacy services for IPD patients, allowing for credit-based medicine billing and inventory tracking specific to inpatient needs. Ensures efficient drug dispensing and record accuracy.",
+      "icon": "clock"
+    },
+    {
+      "title": "HMIS",
+      "description": "Provides tools for entering and generating monthly census and compliance reports as mandated by government health authorities. Ensures regulatory compliance and simplifies health information system (HMIS) reporting.",
       "icon": "hmis"
     }
   ]
