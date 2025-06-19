@@ -1,6 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+export interface DownloadItem {
+  name: string;
+  url: string;
+}
+
+export interface DownloadCategory {
+  title: string;
+  downloads: DownloadItem[];
+}
+
 @Component({
   selector: 'app-downloads',
   templateUrl: './downloads.component.html',
@@ -9,7 +19,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],    // <--- ADD THIS!
 })
 export class DownloadsComponent {
-  downloadCategories: any[] = [
+  downloadCategories: DownloadCategory[] = [
     {
       title: 'Visual Exes',
       downloads: [
@@ -135,4 +145,14 @@ export class DownloadsComponent {
       ]
     }
   ];
+
+  // First group: Visual Exes, Blank Databases, Setup, Old Exes, Other Exes
+  get firstGroupCategories(): DownloadCategory[] {
+    return this.downloadCategories.slice(0, 5);
+  }
+
+  // Second group: Remote Support and everything after
+  get secondGroupCategories(): DownloadCategory[] {
+    return this.downloadCategories.slice(5);
+  }
 }
