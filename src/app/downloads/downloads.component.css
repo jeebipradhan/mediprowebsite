@@ -114,32 +114,41 @@
   margin-bottom: 1.5rem !important;
 }
 
-/* Compact card styling */
-.card {
-  border: none;
+/* Two-box layout styling */
+.download-box {
+  background: white;
+  border: 1px solid #e9ecef;
   border-radius: 8px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-  height: auto;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.download-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: blueviolet;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.download-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.download-list li {
   margin-bottom: 1rem;
 }
 
-.card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.card-body {
-  padding: 1rem;
-}
-
-.card-title {
-  color: #2c3e50;
-  margin-bottom: 0.5rem;
+.category-title {
   font-size: 1.1rem;
   font-weight: 600;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: blueviolet;
   border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.25rem;
 }
 
 /* Compact list styling */
@@ -187,13 +196,6 @@
   text-decoration: underline;
 }
 
-/* Section headers */
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem !important;
-  color: blueviolet;
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .container {
@@ -205,11 +207,17 @@ h2 {
     margin-bottom: 0.75rem !important;
   }
   
-  .card-body {
-    padding: 0.75rem;
+  .download-box {
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
   
-  .card-title {
+  .download-box h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .category-title {
     font-size: 1rem;
     margin-bottom: 0.4rem;
   }
@@ -233,8 +241,8 @@ h2 {
     padding: 0.25rem 0;
   }
   
-  .card-body {
-    padding: 0.5rem;
+  .download-box {
+    padding: 0.75rem;
   }
   
   .list-unstyled li {
